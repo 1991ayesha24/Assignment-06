@@ -1,0 +1,471 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .main {
+        background-image: url(./images/refresh-hero-home-pk.webp);
+        background-position: 800px -100px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 500px;
+    }
+    
+    img {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .demo2 {
+        font-size: 60px;
+    }
+    
+    .demo {
+        margin-top: 250px;
+        margin-left: 50px;
+    }
+    
+    .locate {
+        margin-left: 50px;
+    }
+    
+    .one {
+        box-sizing: border-box;
+        padding-left: 50px;
+        align-items: center;
+        box-shadow: 0 0 10px #464343;
+    }
+    
+    #abc {
+        border-style: solid;
+        border-color: rgb(243, 36, 181);
+        padding: 6px; 
+        border-radius:10px ;
+
+    }
+    
+    #def {
+        border-style: solid;
+        padding: 6px;
+        background-color: rgb(243, 36, 181);
+        border-radius: 10px;
+    }
+    
+    .ijk {
+        color: rgb(243, 36, 181);
+        font-size: medium;
+        font-weight: bold;
+    }
+    
+    .stu {
+        border-style: solid;
+        color: white;
+        background-color: rgb(243, 36, 181);
+        padding: 8px;
+        border-radius: 10px;
+    }
+    
+    .two {
+        width: 100%;
+        height: 500px;
+        background-image: url(./images/home-vendor-pk.webp);
+        background-size: cover;
+        position: relative;
+    }
+    
+    .main2 {
+        background-color: white;
+        position: absolute;
+        bottom: 0;
+        left: 20px;
+        padding: 20px;
+        width: 600px;
+        text-align: justify;
+    }
+    .cards1{
+        display: flex;
+    
+    }
+    /* IMAGES AND CITIES */
+    /* FIRST ROW OF IMAGES */
+
+    .image1 {
+        width: 25%;
+        height: 250px;
+        background-image: url(./images/Islamabad.webp);
+        background-size: cover;
+        margin: 15px;
+        position: relative;
+        border-radius: 10px;
+    }
+    .image2 {
+        width: 25%;
+        height: 250px;
+        background-image: url(./images/Karachi.webp);
+        background-size: cover;
+        margin: 15px;
+        position: relative;
+        border-radius: 10px;
+    }
+
+    .image3 {
+        width: 25%;
+        height: 250px;
+        background-image: url(./images/Lahore.webp);
+        background-size: cover;
+        margin: 15px;
+        position: relative;
+        border-radius: 10px;
+    }
+    .image4 {
+        width: 25%;
+        height: 250px;
+        background-image: url(./images/Faisalabad.webp);
+        background-size: cover;
+        margin: 15px;
+        position: relative;
+        border-radius: 10px;
+    }
+    
+/* SECOND ROW OF IMAGES */
+
+.cards2{display: flex;}
+
+.image5 {
+    width: 25%;
+    height: 250px;
+    background-image: url(./images/Rawalpindi.webp);
+    background-size: cover;
+    margin: 15px;
+    position: relative;
+    border-radius: 10px;
+}
+.image6 {
+    width: 25%;
+    height: 250px;
+    background-image: url(./images/city-tile-Abottabad.webp);
+    background-size: cover;
+    margin: 15px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.image7 {
+    width: 25%;
+    height: 250px;
+    background-image: url(./images/city-tile-Bahawalpur.webp);
+    background-size: cover;
+    margin: 15px;
+    position: relative;
+    border-radius: 10px;
+}
+.image8 {
+    width: 25%;
+    height: 250px;
+    background-image: url(./images/city-tile-DeraGhaziKhan.webp);
+    background-size: cover;
+    margin: 15px;
+    position: relative;
+    border-radius: 10px;}
+
+/* THIRD ROW OF IMAGES */
+
+.cards3{display: flex;}
+
+.image9 {
+    width: 25%;
+    height: 250px;
+    background-image: url(./images/city-tile-Gujranwala.webp);
+    background-size: cover;
+    margin: 15px;
+    position: relative;
+    border-radius: 10px;
+}
+.image10 {
+    width: 25%;
+    height: 250px;
+    background-image: url(./images/city-tile-Gujrat.jpg.webp);
+    background-size: cover;
+    margin: 15px;
+    position: relative;
+    border-radius: 10px;
+
+
+}
+
+.image11 {
+    width: 25%;
+    height: 250px;
+    background-image: url(./images/Hyderabad.webp);
+    background-size: cover;
+    margin: 15px;
+    position: relative;
+    border-radius: 10px;
+}
+.image12 {
+    width: 25%;
+    height: 250px;
+    background-image: url(./images/city-tile-Jhelum.webp);
+    background-size: cover;
+    margin: 15px;
+    position: relative;
+    border-radius: 10px;}
+
+/* FORTH ROW OF IMAGES */
+
+.cards4{display: flex;}
+
+.image13 {
+    width: 25%;
+    height: 250px;
+    background-image: url(./images/city-tile-Kamoke.webp);
+    background-size: cover;
+    margin: 15px;
+    position: relative;
+    border-radius: 10px;
+}
+.image14 {
+    width: 25%;
+    height: 250px;
+    background-image: url(./images/city-tile-Larkana.webp);
+    background-size: cover;
+    margin: 15px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.image15 {
+    width: 25%;
+    height: 250px;
+    background-image: url(./images/city-tile-Mangla.webp);
+    background-size: cover;
+    margin: 15px;
+    position: relative;
+    border-radius: 10px;
+}
+.image16 {
+    width: 25%;
+    height: 250px;
+    background-image: url(./images/city-tile-Mardan.webp);
+    background-size: cover;
+    margin: 15px;
+    position: relative;
+    border-radius: 10px;}
+
+/* FIFTH ROW OF IMAGES */
+
+.cards5{display: flex;}
+
+.image17 {
+    width: 25%;
+    height: 250px;
+    background-image: url(./images/Multan.webp);
+    background-size: cover;
+    margin: 15px;
+    position: relative;
+    border-radius: 10px;
+}
+.image18 {
+    width: 25%;
+    height: 250px;
+    background-image: url(./images/city-tile-Murree.webp);
+    background-size: cover;
+    margin: 15px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.image19 {
+    width: 25%;
+    height: 250px;
+    background-image: url(./images/city-tile-Okara.webp);
+    background-size: cover;
+    margin: 15px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.image20 {
+    width: 25%;
+    height: 250px;
+    background-image: url(./images/city-tile-PanoAqil.webp);
+    background-size: cover;
+    margin: 15px;
+    position: relative;
+    border-radius: 10px;}
+
+/* SIXTH ROW OF IMAGES */
+
+.cards6{display: flex;}
+
+.image21 {
+    width: 25%;
+    height: 250px;
+    background-image: url(./images/Peshawar.webp);
+    background-size: cover;
+    margin: 15px;
+    position: relative;
+    border-radius: 10px;
+}
+.image22 {
+    width: 25%;
+    height: 250px;
+    background-image: url(./images/city-tile-Quetta.webp);
+    background-size: cover;
+    margin: 15px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.image23 {
+    width: 25%;
+    height: 250px;
+    background-image: url(./images/city-tile-RahimYarKhan.webp);
+    background-size: cover;
+    margin: 15px;
+    position: relative;
+    border-radius: 10px;
+}
+.image24 {
+    width: 25%;
+    height: 250px;
+    background-image: url(./images/city-tile-Sadiqabad.webp);
+    background-size: cover;
+    margin: 15px;
+    position: relative;
+    border-radius: 10px;
+
+}
+
+/* SEVENTH ROW OF IMAGES */
+
+.cards7{display: flex;}
+
+.image25 {
+    width: 25%;
+    height: 250px;
+    background-image: url(./images/city-tile-Sahiwal.webp);
+    background-size: cover;
+    margin: 15px;
+    position: relative;
+    border-radius: 10px;
+
+}
+.image26 {
+    width: 25%;
+    height: 250px;
+    background-image: url(./images/city-tile-Sargodha.webp);
+    background-size: cover;
+    margin: 15px;
+    position: relative;
+    border-radius: 10px;
+
+}
+
+.image27 {
+    width: 25%;
+    height: 250px;
+    background-image: url(./images/city-tile-Sheikhupura.jpg.webp);
+    background-size: cover;
+    margin: 15px;
+    position: relative;
+    border-radius: 10px;
+
+}
+.image28 {
+    width: 25%;
+    height: 250px;
+    background-image: url(./imageS/Sialkot.webp);
+    background-size: cover;
+    margin: 15px;
+    position: relative;
+    border-radius: 10px;
+}
+
+/* EIGHT ROW OF IMAGES */
+
+    .cards8{display: flex;}
+
+    .image29 {
+        width: 25%;
+        height: 250px;
+        background-image: url(./images/Sukkur.webp);
+        background-size: cover;
+        margin: 15px;
+        position: relative;
+        border-radius: 10px;
+
+    }
+    .image30 {
+        width: 25%;
+        height: 250px;
+        background-image: url(./images/city-tile-WahhCannt.webp);
+        background-size: cover;
+        margin: 15px;
+        position: relative;
+        border-radius: 10px;
+
+    }
+
+
+
+
+
+
+    .city{
+        position: absolute;
+        bottom: 0;
+        background-color: white;
+        margin: 10px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* IMAGES AND CITIES ENDED */
+    .main3{font-size: 25px;}
+
+    .demo1{height:50px;
+    width: 90px;
+font-size: large;
+color: white;
+background-color: rgb(243, 36, 181);
+border-radius: 10px;}
+.fix{
+    height: 60px;
+    border-radius: 10px;
+    border-style: solid, 10px ;
+}
+.main2{
+    bottom: top;
+    border: solid 2px;
+border-radius: 10px;
+border-color: white;}
+
+
+/* the navigation bar fixing*/
+.one{
+    position: fixed;
+     width: 100%;  /*full page wide length*/
+    top: 0; 
+}
+
+
+    
+
+    
